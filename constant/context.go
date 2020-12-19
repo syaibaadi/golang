@@ -1,0 +1,26 @@
+package constant
+
+const (
+	CtxDB                 = "db_connection"
+	CtxDBCentral          = "db_central"
+	CtxDBComp             = "db_company"
+	CtxChc                = "cache"
+	CtxQueue              = "queue"
+	CtxTxCentral          = "tx_central"
+	CtxTxCompany          = "tx_company"
+	CtxSlug               = "slug"
+	CtxAccessToken        = "access_token"
+	CtxRequiredHeader     = "header_rule"
+	CtxClientID           = "client_id"
+	CtxUserID             = "user_id"
+	CtxCompanyID          = "company_id"
+	CtxUserToken          = "user_token"
+	CtxUserAccessControls = "acl"
+	CtxUserCompany        = "user"
+	CtxLang               = "lang"
+	CtxErrorMessage       = "error_message"
+	CtxTrace              = "trace"
+	CtxRequest            = "request"
+	CtxRequestBracket     = "origin_request"
+	CtxEndpoint           = "endpoint"
+)
