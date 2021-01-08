@@ -14,7 +14,7 @@ type Config string
 
 func Init(path string) {
 	log.Println("Loading chat config for " + path)
-	err := godotenv.Load("../.env")
+	err := godotenv.Load(".env")
 	if err != nil {
 		log.Println("Loading .env file from /var/www/html/" + path + "/.env")
 		err = godotenv.Load("/var/www/html/" + path + "/.env")
